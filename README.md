@@ -6,8 +6,7 @@ Search DashDoc within Emacs.
 
 You can search using `query` or `keyword:query` The `keyword` can be a [docset keyword](https://kapeli.com/dash_guide#docsetKeywords) or a [search profile keyword](https://kapeli.com/dash_guide#searchProfiles), for example: `php:query`.
 
-![screenshot.png][DashDoc]
-
+![DashDoc](screenshot.png)
 
 # Requirements
 
