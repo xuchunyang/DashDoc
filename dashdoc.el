@@ -29,6 +29,9 @@
 (require 'dom)                          ; Emacs 25.1
 (eval-when-compile (require 'cl-lib))   ; `cl-loop'
 
+(declare-function libxml-parse-xml-region "xml.c"
+		  (start end &optional base-url discard-comments))
+
 (defvar dashdoc-dashAlfredWorkflow-executable
   (let ((workflow-dir
          "~/Library/Application Support/Alfred 3/Alfred.alfredpreferences/workflows/"))
