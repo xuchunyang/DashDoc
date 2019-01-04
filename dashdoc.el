@@ -78,7 +78,8 @@
             :action (lambda (x)
                       (call-process "open" nil nil nil
                                     "-g" (format "dash-workflow-callback://%s"
-                                                 (get-text-property 0 'arg x))))))
+                                                 (get-text-property 0 'arg x))))
+            :caller 'dashdoc-ivy))
 
 
 ;;; User Commands
